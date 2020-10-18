@@ -1,16 +1,23 @@
-<mat-toolbar color="primary">
-  <a class="title1" routerLink="/home">Incantevole Veranda</a>
+
+<mat-toolbar class="mat-toolbar">
+  <a class="title1" routerLink="/home">
+    L'Incantevole Veranda
+  </a>
 
   <!-- This fills the remaining space of the current row -->
-  <span class="example-fill-remaining-space"></span>
-
-  <mat-toolbar-row>
-    <a mat-button [routerLink]="'/casa'"> Casa </a>
-    <a mat-button [routerLink]="'/create-account'"> Create Account </a>
-    <a mat-button [routerLink]="'/contacts'"> Contacts </a>
-    <a mat-button [routerLink]="'/create-contact'"> Create Contact </a>
-    <a mat-button [routerLink]="'/activities'"> Activities </a>
-    <a mat-button [routerLink]="'/create-activity'"> Create Activity </a>
-  </mat-toolbar-row>
+  <div id="menu">
+    <a mat-button [routerLink]="'/casa'"> CASA </a>
+    <a mat-button [routerLink]="'/create-account'"> FOTO </a>
+    <a mat-button [routerLink]="'/contacts'"> LOCALITÀ </a>
+    <a mat-button [routerLink]="'/create-contact'"> PRENOTA </a>
+  </div>
 </mat-toolbar>
 <router-outlet></router-outlet>
+<div class="bottom-bar">
+  <div class="contatti">
+    <p style="font-size: 25px">CONTATTI</p>
+    <p style="font-size: 12px">MARIA: +39 3484165680</p>
+    <p style="font-size: 12px">MATTEO: +39 3467912150</p>
+    <p style="font-size: 12px">ma.borghe@gmail.com</p>
+  </div>
+</div>

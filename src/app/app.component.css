@@ -1,0 +1,35 @@
+.mat-toolbar {
+  height: 50px;
+}
+
+.mat-toolbar > .title1 {
+  color: #2B689C;
+  font-family: belinda-w00-regular;
+}
+
+#menu {
+  margin: auto;
+  width: 30%;
+  padding: 10px;
+  display: flex;
+}
+
+#menu > a {
+  color: #386f9e;
+  font-size: 14px;
+  font-family: proxima-n-w01-reg,sans-serif;
+  margin: auto;
+  text-align:center;
+}
+
+.bottom-bar {
+  width: 100%;
+  height: 150px;
+  background-color: #386f9e;
+}
+
+.bottom-bar > .contatti {
+  margin-left: 60px;
+  font-family: futura-lt-w01-book,sans-serif;
+  color: white;
+}
