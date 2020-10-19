@@ -5,9 +5,10 @@ import {MatButtonModule} from '@angular/material/button';
 
 import { AppComponent } from './app.component';
 import {RouterModule} from '@angular/router';
-import {HomeComponent, PageNotFoundComponent} from './app.helper';
-import {CasaComponent} from './casa/casa.component';
+import {PageNotFoundComponent} from './app.helper';
+import {HomeComponent} from './home/home.component';
 import {AppRoutingModule} from './app-routing.module';
+import {CasaComponent} from './casa/casa.component';
 
 @NgModule({
   declarations: [
