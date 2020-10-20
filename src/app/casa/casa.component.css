@@ -1,0 +1,36 @@
+section {
+  min-width: 980px;
+  padding-bottom: 30px;
+}
+
+section > #balloSardo {
+  width: 1287px;
+  height: 335px;
+  object-fit: cover;
+}
+
+.casa {
+  text-align: center;
+  font: normal normal normal 12px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+  color: #2B689C;
+}
+
+.casa > h1 {
+  font: normal normal bold 25px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+  font-family: futura-lt-w01-book,sans-serif;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: normal;
+  letter-spacing:0.1em
+}
+
+.casa > p {
+  font: normal normal normal 13.5px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;
+  font-size: 15px;
+  line-height: 2em;
+}
+
+.casa > #mappaCasa {
+  width: 50%;
+  height: auto;
+}

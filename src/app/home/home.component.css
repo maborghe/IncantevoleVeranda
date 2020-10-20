@@ -13,6 +13,7 @@
   color: white;
   text-align: center;
   line-height: normal;
+  font-weight: normal;
   letter-spacing: normal;
   letter-spacing: 0em;
   word-wrap: break-word;
@@ -23,12 +24,10 @@
 .bg-img > .title > h1 {
   font-family: proxima-n-w01-reg,sans-serif;
   font-size: 60px;
-  font-weight: normal;
 }
 
 .bg-img > .title > h2 {
   font-family: georgia,palatino,book antiqua,palatino linotype,serif;
   font-size: 30px;
-  font-weight: normal;
   font-style: italic;
 }
