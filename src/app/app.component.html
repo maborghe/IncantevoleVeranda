@@ -1,23 +1,21 @@
-
 <mat-toolbar class="mat-toolbar">
-  <a class="title1" routerLink="/home">
-    L'Incantevole Veranda
-  </a>
-
-  <!-- This fills the remaining space of the current row -->
-  <div id="menu">
-    <a mat-button [routerLink]="'/casa'"> CASA </a>
-    <a mat-button [routerLink]="'/create-account'"> FOTO </a>
-    <a mat-button [routerLink]="'/contacts'"> LOCALITÀ </a>
-    <a mat-button [routerLink]="'/create-contact'"> PRENOTA </a>
-  </div>
+    <a class="title1" routerLink="/">
+      L'Incantevole Veranda
+    </a>
 </mat-toolbar>
-<router-outlet></router-outlet>
+
+
+<div id="menu">
+  <a mat-button routerLink="/"> HOME </a>
+  <a mat-button routerLink="/casa"> CASA </a>
+</div>
+<router-outlet />
+
 <div class="bottom-bar">
   <div class="contatti">
     <p style="font-size: 25px">CONTATTI</p>
     <p style="font-size: 12px">MARIA: +39 3484165680</p>
     <p style="font-size: 12px">MATTEO: +39 3467912150</p>
-    <p style="font-size: 12px">ma.borghe@gmail.com</p>
+    <p style="font-size: 12px">ma.borghe&#64;gmail.com</p>
   </div>
 </div>
