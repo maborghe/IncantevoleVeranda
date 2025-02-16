@@ -7,14 +7,14 @@
   font-family: belinda-w00-regular;
 }
 
-#menu {
+#toolbarmenu {
   margin: auto;
   width: 30%;
   padding: 10px;
   display: flex;
 }
 
-#menu > a {
+#toolbarmenu > a {
   color: #386f9e;
   font-size: 14px;
   font-family: proxima-n-w01-reg,sans-serif;
@@ -29,6 +29,7 @@
 }
 
 .bottom-bar > .contatti {
+  margin-top: 40px;
   margin-left: 60px;
   font-family: futura-lt-w01-book,sans-serif;
   color: white;

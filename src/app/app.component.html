@@ -5,17 +5,28 @@
 </mat-toolbar>
 
 
-<div id="menu">
-  <a mat-button routerLink="/"> HOME </a>
-  <a mat-button routerLink="/casa"> CASA </a>
+<div id="toolbarmenu">
+  <button mat-button [routerLink]="'/casa'">CASA</button>
+  <button mat-button [matMenuTriggerFor]="menu">Casa 2</button>
+    <!-- <a routerLink="/casa">CASA</a> -->
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item>Item 1</button>
+      <button mat-menu-item>Item 2</button>
+    </mat-menu>
 </div>
+
+
 <router-outlet />
 
 <div class="bottom-bar">
   <div class="contatti">
+    <br>
     <p style="font-size: 25px">CONTATTI</p>
-    <p style="font-size: 12px">MARIA: +39 3484165680</p>
+    <br>
     <p style="font-size: 12px">MATTEO: +39 3467912150</p>
+    <br>
+    <p style="font-size: 12px">MARIA: +39 3484165680</p>
+    <br>
     <p style="font-size: 12px">ma.borghe&#64;gmail.com</p>
   </div>
 </div>
