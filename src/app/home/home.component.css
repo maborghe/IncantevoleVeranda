@@ -1,7 +1,7 @@
 .bg-img {
   min-height: 100vh;
   margin: 0;
-  background-image: url('../home/veranda.jpg');
+  background-image: url('/assets/veranda.jpg');
   background-size: cover;
   height: 100%;
   width:100%; /*full width*/
