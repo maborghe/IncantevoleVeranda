@@ -51,3 +51,9 @@ p {
   font-size: 15px;
   line-height: 2em;
 }
+
+.mainSection {
+  max-width: 800px; /* Adjust as needed */
+  margin: 0 auto;   /* Centers the container horizontally */
+  padding: 0 20px;  /* Optional: adds some padding on smaller screens */
+}
