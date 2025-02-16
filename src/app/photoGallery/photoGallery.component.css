@@ -1,0 +1,21 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;     /* Space between grid items */
+    padding: 16px;
+  }
+  
+  /* Each gallery item */
+  .gallery-item {
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  /* Images styling */
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensures the image fills the container without distortion */
+    display: block;
+  }
