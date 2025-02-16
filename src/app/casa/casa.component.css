@@ -1,47 +1,5 @@
-section {
-  min-width: 980px;
-  padding-bottom: 30px;
-}
-
-section > #balloSardo {
-  width: 1287px;
-  height: 335px;
-  object-fit: cover;
-}
-
-.casa {
-  text-align: center;
-  font: normal normal normal 12px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
-  color: #2B689C;
-}
-
-.casa > h1 {
-  font: normal normal bold 25px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
-  font-family: futura-lt-w01-book,sans-serif;
-  font-weight: normal;
-  font-size: 25px;
-  line-height: normal;
-  letter-spacing:0.1em;
-  padding-top: 20px;
-  padding-bottom: 20px
-}
-
-.casa > p {
-  font: futura-lt-w01-book, sans-serif;
-  font-size: 15px;
-  line-height: 2em;
-}
-
 .casa > #mappaCasa {
   width: 50%;
   height: auto;
-}
-
-.imageBanner {
-  width: 100%;    /* Stretches the image to fill the container horizontally */
-  height: 335px;   /* Maintains the aspect ratio */
-  object-fit: cover;   /* Makes the image fill the space while maintaining aspect ratio */
-  object-position: center; /* Keeps the image centered (you can adjust this as needed) */
-  margin-bottom: 20px;
 }
 
