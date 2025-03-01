@@ -1,0 +1,32 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+}
+
+.grid-component {
+    display: inline-block;       /* Keep each card in its own “box” */
+    margin: 8px;                 /* Space between cards */
+}
+
+.image-card {
+    border: 1px solid #ccc;    /* Thin border around the card */
+    padding: 4px;                /* Spacing around content */
+    text-align: center;          /* Center the text inside the card */
+    border-radius: 4px;          /* Slightly rounded corners (optional) */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow (optional) */
+}
+
+.image-card img {
+    max-width: 200px;            /* Restrict image width (adjust as needed) */
+    height: auto;                /* Maintain aspect ratio */
+    display: block;              /* Removes the small gap below images in inline-blocks */
+    margin: 0 auto;              /* Center the image horizontally */
+}
+
+.image-title {
+    margin-top: 8px;             /* Space above the title */
+    font-weight: bold;           /* Make the title stand out */
+    text-align: left;
+}

@@ -1,0 +1,10 @@
+<div class="gallery">
+  <div *ngFor="let item of items" class="gallery-item">
+    <div class="grid-component">
+      <div class="image-card">
+        <img [src]="item.imageSrc" alt="{{ item.title }}" />
+      </div>
+      <div class="image-title">{{ item.title }}</div>
+    </div>
+  </div>
+</div>

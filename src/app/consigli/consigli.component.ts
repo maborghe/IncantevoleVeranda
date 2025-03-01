@@ -1,0 +1,20 @@
+import {Component} from '@angular/core';
+import { RoutingGridComponent } from '../routingGrid/routingGrid.component';
+
+@Component({
+  selector: 'app-consigli',
+  templateUrl: './consigli.component.html',
+  styleUrls: ['./consigli.component.css'],
+  imports: [ RoutingGridComponent ],
+  standalone: true,
+})
+export class ConsigliComponent {
+  cardItems = [
+    { imageSrc: 'assets/consigli/statua-vele.jpg', title: 'Baja Sardinia' },
+    { imageSrc: 'assets/consigli/spiagge.jpg', title: 'Spiagge' },
+    { imageSrc: 'assets/consigli/dove-mangiare.jpg', title: 'Dove mangiare' },
+    { imageSrc: 'assets/consigli/cosa-fare.jpg', title: 'Cosa fare' },
+    { imageSrc: 'assets/consigli/come-arrivare.jpg', title: 'Come arrivare' },
+  ];
+
+}
