@@ -1,2 +1,23 @@
-
-
+.info-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    gap: 20px; /* Add spacing between each item */
+  }
+  
+  .info-item {
+    display: flex;
+    align-items: center; /* ✅ Center image and text vertically */
+    gap: 15px; /* Space between the icon and text */
+  }
+  
+  .info-icon {
+    width: 50px; /* Adjust icon size */
+    height: auto; /* Maintain aspect ratio */
+    flex-shrink: 0; /* Prevent icon from shrinking */
+  }
+  
+  .info-item p {
+    flex: 1; /* Allow text to take the remaining space */
+    margin: 0; /* Remove default margin */
+    line-height: 1.6; /* Improve readability */
+  }
