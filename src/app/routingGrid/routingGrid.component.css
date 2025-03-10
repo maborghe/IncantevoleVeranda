@@ -16,6 +16,7 @@
     text-align: center;          /* Center the text inside the card */
     border-radius: 4px;          /* Slightly rounded corners (optional) */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow (optional) */
+    cursor: pointer;
 }
 
 .image-card img {
@@ -23,10 +24,16 @@
     height: auto;                /* Maintain aspect ratio */
     display: block;              /* Removes the small gap below images in inline-blocks */
     margin: 0 auto;              /* Center the image horizontally */
+    transition: opacity 0.3s ease-in-out;
 }
+
+.image-card:hover {
+    opacity: 0.6;
+  }
 
 .image-title {
     margin-top: 8px;             /* Space above the title */
     font-weight: bold;           /* Make the title stand out */
     text-align: left;
+    cursor: pointer;
 }

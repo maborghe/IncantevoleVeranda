@@ -4,11 +4,13 @@ import {HomeComponent} from './home/home.component';
 import {CasaComponent} from './casa/casa.component';
 import {FotoComponent} from './foto/foto.component';
 import { ConsigliComponent } from './consigli/consigli.component';
+import { BajaSardiniaComponent } from './bajaSardinia/bajaSardinia.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'casa', component: CasaComponent },
   { path: 'foto', component: FotoComponent },
   { path: 'consigli', component: ConsigliComponent },
+  { path: 'baja-sardinia', component: BajaSardiniaComponent },
   { path: '**', component: PageNotFoundComponent }
 ];

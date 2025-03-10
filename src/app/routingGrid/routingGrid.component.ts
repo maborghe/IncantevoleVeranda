@@ -1,5 +1,6 @@
 import {Component, Input} from '@angular/core';
 import { NgFor } from '@angular/common';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-routingGrid',
@@ -9,7 +10,12 @@ import { NgFor } from '@angular/common';
   standalone: true,
 })
 export class RoutingGridComponent {
-  @Input() items: { imageSrc: string; title: string }[] = [];
+  @Input() items: { imageSrc: string; title: string, route: string }[] = [];
 
+  constructor(private router: Router) {}
+
+  navigateToPage(route: string) {
+    this.router.navigate([route]);
+  }
 }
 

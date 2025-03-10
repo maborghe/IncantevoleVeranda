@@ -1,10 +1,10 @@
 <div class="gallery">
   <div *ngFor="let item of items" class="gallery-item">
     <div class="grid-component">
-      <div class="image-card">
+      <div class="image-card" (click)="navigateToPage(item.route)">
         <img [src]="item.imageSrc" alt="{{ item.title }}" />
       </div>
-      <div class="image-title">{{ item.title }}</div>
+      <div class="image-title" (click)="navigateToPage(item.route)">{{ item.title }}</div>
     </div>
   </div>
 </div>
