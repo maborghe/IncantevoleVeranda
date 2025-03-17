@@ -15,6 +15,7 @@ export class RoutingGridComponent {
   constructor(private router: Router) {}
 
   navigateToPage(route: string) {
+    console.log("Navigating to: " + route)
     this.router.navigate([route]);
   }
 }

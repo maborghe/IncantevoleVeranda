@@ -1,0 +1,18 @@
+<div class="slideshow-container">
+  <h3>{{title}}</h3>
+
+  <div class="carousel">
+    <button class="arrow left" (click)="prevImage()">&#10094;</button>
+
+    <div class="image-container">
+      <img [src]="images[currentIndex].src" [alt]="images[currentIndex].title">
+    </div>
+
+    <button class="arrow right" (click)="nextImage()">&#10095;</button>
+  </div>
+
+  <div class="caption">
+    <strong>{{ images[currentIndex].title }}</strong>
+    <span>{{ images[currentIndex].distance }} - {{ images[currentIndex].time }}</span>
+  </div>
+</div>
