@@ -19,7 +19,7 @@ h3 {
 }
 
 .image-container img {
-    width: 100%;
+    width: 300px; 
     border-radius: 8px;
 }
 
