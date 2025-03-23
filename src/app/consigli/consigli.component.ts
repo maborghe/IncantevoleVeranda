@@ -1,5 +1,10 @@
 import {Component} from '@angular/core';
 import { RoutingGridComponent } from '../routingGrid/routingGrid.component';
+import {
+  BAJA_SARDINIA_ROUTE,
+  SPIAGGE_ROUTE,
+  COSA_FARE_ROUTE
+} from '../app.routes';
 
 @Component({
   selector: 'app-consigli',
@@ -10,11 +15,11 @@ import { RoutingGridComponent } from '../routingGrid/routingGrid.component';
 })
 export class ConsigliComponent {
   cardItems = [
-    { imageSrc: 'assets/consigli/statua-vele.jpg', title: 'Baja Sardinia', route: '/baja-sardinia' },
-    { imageSrc: 'assets/consigli/spiagge.jpg', title: 'Spiagge', route: '/spiagge' },
-    { imageSrc: 'assets/consigli/dove-mangiare.jpg', title: 'Dove mangiare', route: '/baja-sardinia' },
-    { imageSrc: 'assets/consigli/cosa-fare.jpg', title: 'Cosa fare', route: '/baja-sardinia' },
-    { imageSrc: 'assets/consigli/come-arrivare.jpg', title: 'Come arrivare', route: '/baja-sardinia' },
+    { imageSrc: 'assets/consigli/statua-vele.jpg', title: 'Baja Sardinia', route: BAJA_SARDINIA_ROUTE },
+    { imageSrc: 'assets/consigli/spiagge.jpg', title: 'Spiagge', route: SPIAGGE_ROUTE },
+    //{ imageSrc: 'assets/consigli/dove-mangiare.jpg', title: 'Dove mangiare', route: '/baja-sardinia' },
+    { imageSrc: 'assets/consigli/cosa-fare.jpg', title: 'Cosa fare', route: COSA_FARE_ROUTE },
+    //{ imageSrc: 'assets/consigli/come-arrivare.jpg', title: 'Come arrivare', route: '/baja-sardinia' },
   ];
 
 }
