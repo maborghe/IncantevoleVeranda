@@ -9,7 +9,7 @@ import { SpiaggeComponent } from './spiagge/spiagge.component';
 import { CosaFareComponent } from './cosaFare/cosa-fare.component';
 import { DivertimentoComponent } from './divertimento/divertimento.component';
 import { PaesiComponent } from './paesi/paesi.component';
-import { AttivitaComponent } from './attivita/attivita.component';
+import { NaturaComponent } from './natura/natura.component';
 import { ArcheologiaComponent } from './archeologia/archeologia.component';
 
 export const BAJA_SARDINIA_ROUTE = 'baja-sardinia'
@@ -17,7 +17,7 @@ export const SPIAGGE_ROUTE = 'spiagge'
 export const COSA_FARE_ROUTE = 'cosa-fare'
 export const DIVERTIMENTO_ROUTE = 'divertimento'
 export const PAESI_ROUTE = 'paesi'
-export const ATTIVITA_ROUTE = 'attivita'
+export const NATURA_ROUTE = 'natura'
 export const ARCHEOLOGIA_ROUTE = 'archeologia'
 
 export const routes: Routes = [
@@ -30,7 +30,7 @@ export const routes: Routes = [
   { path: COSA_FARE_ROUTE, component: CosaFareComponent },
   { path: DIVERTIMENTO_ROUTE, component: DivertimentoComponent },
   { path: PAESI_ROUTE, component: PaesiComponent },
-  { path: ATTIVITA_ROUTE, component: AttivitaComponent },
+  { path: NATURA_ROUTE, component: NaturaComponent },
   { path: ARCHEOLOGIA_ROUTE, component: ArcheologiaComponent },
   { path: '**', component: PageNotFoundComponent }
 ];
